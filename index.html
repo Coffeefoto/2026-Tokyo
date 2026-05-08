@@ -122,14 +122,15 @@
         <section id="dining-section" class="space-y-6 pt-12 border-t border-stone-200">
             <div class="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
-                    <h2 class="text-2xl font-bold text-stone-800 mb-2">🍽️ 美食地圖</h2>
-                    <p class="text-stone-600">東京美食餐廳。</p>
+                    <h2 class="text-2xl font-bold text-stone-800 mb-2">美食🍴🍽️景點🎏🎏推介</h2>
+                    <p class="text-stone-600">東京📸📸景點🍚🍝美食餐廳</p>
                 </div>
                 <div class="flex flex-wrap gap-2" id="dining-filters">
                     <button class="filter-btn active px-4 py-2 text-sm font-medium rounded-full bg-stone-800 text-white" data-filter="all">全部</button>
                     <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="新宿">新宿</button>
-                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="銀座/晴空塔">晴空塔</button>
-                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="富士河口湖">河口湖</button>
+                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="晴空塔">晴空塔</button>
+                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="河口湖">河口湖</button>
+                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="景點">新宿</button>
                 </div>
             </div>
 
@@ -151,10 +152,10 @@
                 highlights: "✈️ 抵達 | 🚌 利木津巴士 | 🎣 釣船茶屋",
                 hotel: { name: "新宿華盛頓酒店 本館", link: "https://maps.app.goo.gl/xxANPAMT2DPYCJGN8" },
                 details: [
-                    { time: "14:30", activity: "✈️抵達成田機場，辦理入境", note: "準備Visit Japan Web" },
-                    { time: "15:00/16:00", activity: "乘搭利木津巴士", note: "直達酒店17:05/18:05到達酒店" },
-                    { time: "17:30", activity: "入住新宿華盛頓酒店", note: "飯店位於都廳附近，交通便利" },
-                    { time: "19:00", activity: "晚餐：釣船茶屋 (酒店1樓)", note: "在酒店內享受釣魚用餐樂趣" }
+                    { time: "14:30", activity: "🛬抵達成田機場🛬辦理入境", note: "準備Visit Japan Web" },
+                    { time: "15:00/16:00", activity: "乘搭利木津巴士🚌", note: "直達酒店17:05/18:05到達酒店" },
+                    { time: "17:30", activity: "入住🌉新宿華盛頓酒店", note: "飯店位於都廳附近，交通便利" },
+                    { time: "19:00", activity: "🍽️🍽️釣船茶屋 (酒店1樓)", note: "在酒店內享受釣魚用餐樂趣" }
                 ]
             },
             {
@@ -164,12 +165,12 @@
                 highlights: "🤖 藤子·F·不二雄博物館 | 🗼 晴空塔",
                 hotel: { name: "新宿華盛頓酒店 本館", link: "https://maps.app.goo.gl/xxANPAMT2DPYCJGN8" },
                 details: [
-                    { time: "08:00", activity: "酒店食早餐", note: "準備出發" },
+                    { time: "08:00", activity: "🍣🍚酒店食早餐", note: "準備出發" },
                     { time: "09:15", activity: "新宿小田急線(往藤澤)", note: "去登戶" },
                     { time: "09:45", activity: "抵達登戶站(生地綠地口出)乘搭接駁巴士", note: "9:39, 9:50, 10:01, 10:12巴士" },
-                    { time: "10:00", activity: "抵達🤖 藤子·F·不二雄博物館", note: "先到3樓餐廳拎飛Lunch" },
+                    { time: "10:00", activity: "📸抵達🤖 藤子·F·不二雄博物館", note: "先到3樓餐廳拎飛Lunch" },
                     { time: "13:00", activity: "離開雄博物館前往東京晴空塔", note: "小田急線Google Map" },
-                    { time: "15:00", activity: "前往東京晴空塔 (Skytree)", note: "建議搭乘半藏門線至押上站" },
+                    { time: "15:00", activity: "📸前往東京晴空塔 (Skytree)", note: "建議搭乘半藏門線至押上站" },
                     { time: "18:30", activity: "晚餐：晴空塔商場 6F 鰻魚飯", note: "炭火香氣十足，軟嫩好消化" }
                 ]
             },
@@ -180,11 +181,14 @@
                 highlights: "🚆 湘南新宿線 | 🚗 租車 | ⛩️ 鎌倉大佛",
                 hotel: { name: "新宿華盛頓酒店 本館", link: "https://maps.app.goo.gl/xxANPAMT2DPYCJGN8" },
                 details: [
-                    { time: "08:00", activity: "酒店食早餐", note: "準備出發" },
-                    { time: "09:00", activity: "新宿站乘搭 JR 湘南新宿線", note: "去船站" },
+                    { time: "08:00", activity: "🍣🍚酒店食早餐", note: "準備出發" },
+                    { time: "09:00", activity: "🚄🚄新宿站乘搭 JR 湘南新宿線", note: "去船站" },
                     { time: "10:15", activity: "到大船站，去Toyota取車", note: "大船站東口" },
-                    { time: "11:00", activity: "鎌倉高校前站，平交道", note: "男兒當入樽" },
-                    { time: "14:00", activity: "鎌倉大佛與江之島", note: "自駕大幅減少走路時間" }
+                    { time: "--:--", activity: "📸鎌倉高校前站，平交道", note: "男兒當入樽" },
+                    { time: "--:--", activity: "📸鎌倉海濱公園 由比濱地區", note: "遼闊的海濱草坪與遊樂場，有盪鞦韆、攀爬架、溜滑梯及復古的路面電車。" },
+                    { time: "--:--", activity: "📸江之島", note: "自駕大幅減少走路時間" },
+                    { time: "--:--", activity: "📸愛情怎麼翻譯？", note: "江之島郵局🏣🏣" },
+                    { time: "19:00", activity: "Toyota還車", note: "JR 返新宿" }
                 ]
             },
             {
@@ -194,8 +198,8 @@
                 highlights: "🚂 富士回遊特急 | 🗻 大石公園",
                 hotel: { name: "山田屋飯店", link: "https://maps.app.goo.gl/3MGtZBeHeKLt2cuM8" },
                 details: [
-                    { time: "08:00", activity: "酒店食早餐", note: "準備出發" },
-                    { time: "09:02", activity: "新宿乘搭富士回遊", note: "直達河口湖" },
+                    { time: "08:00", activity: "🍣🍚酒店食早餐", note: "準備出發" },
+                    { time: "09:02", activity: "🚄🚄新宿乘搭富士回遊", note: "直達河口湖" },
                     { time: "11:15", activity: "到達河口湖站", note: "先食午餐" },
                     { time: "11:30", activity: "到河口湖，去Toyota取車", note: "欣賞富士山與花海" },
                     { time: "--:--", activity: "大石公園", note: "位於河口湖畔的公園，坐擁富士山美景、薰衣草花海及兒童遊樂場海" },
@@ -210,8 +214,9 @@
                 highlights: "🛖 西湖 | 🚂 返回新宿",
                 hotel: { name: "新宿華盛頓酒店 本館", link: "https://maps.app.goo.gl/xxANPAMT2DPYCJGN8" },
                 details: [
-                    { time: "10:00", activity: "西湖療癒之里根場", note: "體驗傳統合掌造建築" },
-                    { time: "16:00", activity: "搭車返回新宿", note: "傍晚回到市區，回飯店取行李" }
+                    { time: "09:00", activity: "🍣🍚山田屋飯店早餐", note: "日式傳統早餐，強調精緻且美味" },
+                    { time: "10:00", activity: "📸西湖療癒之里根場", note: "體驗傳統合掌造建築" },
+                    { time: "16:00", activity: "🚄🚄搭JR返回新宿", note: "傍晚回到市區，回飯店取行李" }
                 ]
             },
             {
@@ -221,10 +226,10 @@
                 highlights: "🍜 花山烏冬 | 🛍️ 銀座 | 🥩 燒肉",
                 hotel: { name: "新宿華盛頓酒店 本館", link: "https://maps.app.goo.gl/xxANPAMT2DPYCJGN8" },
                 details: [
-                    { time: "08:30", activity: "酒店食早餐", note: "準備出發" },
-                    { time: "10:00", activity: "出發銀座花山烏冬", note: "JR，11:00前要到達" },
-                    { time: "11:00", activity: "銀座花山烏冬", note: "寬麵條口感特殊，極受歡迎" },
-                    { time: "14:00", activity: "銀座商場百貨購物", note: "銀座三越設有充足休息區" },
+                    { time: "08:30", activity: "🍣🍚酒店食早餐", note: "準備出發" },
+                    { time: "10:00", activity: "出發🍝銀座花山烏冬", note: "JR，11:00前要到達" },
+                    { time: "11:00", activity: "🍝銀座花山烏冬", note: "寬麵條口感特殊，極受歡迎" },
+                    { time: "14:00", activity: "銀座商場百貨購物🎁🎁", note: "銀座三越設有充足休息區" },
                     { time: "18:30", activity: "六歌仙燒肉", note: "晚餐" }
                 ]
             },
@@ -235,11 +240,11 @@
                 highlights: "🚌 利木津巴士 | ✈️ 國泰航班",
                 hotel: null,
                 details: [
-                    { time: "07:30", activity: "酒店食早餐", note: "食完回房準備離開" },
+                    { time: "07:30", activity: "🍣🍚酒店食早餐", note: "食完回房準備離開" },
                     { time: "09:00", activity: "酒店Check-Out", note: "睇睇有冇漏低嘢" },
-                    { time: "09:40", activity: "🚌 利木津巴士", note: "直達機場" },
-                    { time: "12:07", activity: "到達成田機場", note: "Check-in後午餐" },
-                    { time: "14:50", activity: "乘機CX527回港", note: "18:50到香港" }
+                    { time: "09:40", activity: "🚌利木津巴士", note: "直達機場" },
+                    { time: "12:07", activity: "🚌到達成田機場", note: "Check-in後午餐" },
+                    { time: "14:50", activity: "🚄🚄乘機CX527回港", note: "約18:50到香港" }
                 ]
             }
         ];
@@ -253,7 +258,12 @@
             { name: "五代目 花山烏冬", region: "晴空塔", desc: "群馬縣名產，店內裝潢高雅舒適。", link: "https://maps.app.goo.gl/UtGgNg3P5LZxr4gM7", icon: "🍜" },
             { name: "山田屋飯店懷石", region: "河口湖", desc: "飯店一泊二食，邊看富士山邊用餐。", link: "https://maps.app.goo.gl/ud8U2Ncae6qdaWaP8", icon: "🍵" },
             { name: "拉麵 風雲兒", region: "新宿", desc: "人氣拉麵店，供應搭配各式醬料的沾麵，並設有吧台座位", link: "https://maps.app.goo.gl/bJYW1D9zzdugCFL6A", icon: "🍥" },
-            { name: "豚珍館", region: "新宿", desc: "日式炸豬扒餐廳", link: "https://maps.app.goo.gl/MJu5iQV6MJHPmHd66", icon: "🐖" }
+            { name: "豚珍館", region: "新宿", desc: "日式炸豬扒餐廳", link: "https://maps.app.goo.gl/MJu5iQV6MJHPmHd66", icon: "🐖" },
+            
+            { name: "藤子·F·不二雄博物館", region: "景點", desc: "以藤子不二雄作品為主題的博物館，有原創作品、漫畫閱覽室和劇院", link: "https://finduheart.com/fujikomu", icon: "📸" },
+            { name: "東京晴空塔", region: "景點", desc: "世界上最高的獨立廣播塔，上面的觀景台可飽覽 360 度全景", link: "https://maps.app.goo.gl/GiMqjfKyzcRLiSGS6", icon: "📸" },
+            { name: "大石公園", region: "景點", desc: "位於河口湖畔的公園，坐擁富士山美景、薰衣草花海及兒童遊樂場", link: "https://maps.app.goo.gl/kpxQh8X2LTRxB4GC8", icon: "📸" },
+            { name: "鐮倉高校前", region: "景點", desc: "男仔當入樽平交道", link: "https://maps.app.goo.gl/rmVPyJ3LrMGA6Dc6A", icon: "📸" }
         ];
 
         function initChart() {
