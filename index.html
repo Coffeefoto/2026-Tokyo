@@ -120,13 +120,13 @@
             <div class="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
                     <h2 class="text-2xl font-bold text-stone-800 mb-2">🍽️ 美食地圖</h2>
-                    <p class="text-stone-600">環境寬敞且無需行樓梯的餐廳。</p>
+                    <p class="text-stone-600">東京美食餐廳。</p>
                 </div>
                 <div class="flex flex-wrap gap-2" id="dining-filters">
                     <button class="filter-btn active px-4 py-2 text-sm font-medium rounded-full bg-stone-800 text-white" data-filter="all">全部</button>
                     <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="新宿">新宿</button>
-                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="銀座/晴空塔">銀座/晴空塔</button>
-                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="富士河口湖">富士河口湖</button>
+                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="銀座/晴空塔">晴空塔</button>
+                    <button class="filter-btn px-4 py-2 text-sm font-medium rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200" data-filter="富士河口湖">河口湖</button>
                 </div>
             </div>
 
@@ -134,7 +134,7 @@
         </section>
 
         <footer class="pt-16 pb-8 text-center text-stone-400 text-sm">
-            <p>2026東京好玩之旅 🤩🤩 · 讓每人都開心的完美規劃</p>
+            <p>2026東京好玩之旅 🤩🤩 每人都開心的完美規劃</p>
         </footer>
 
     </main>
@@ -193,9 +193,11 @@
                 details: [
                     { time: "08:00", activity: "酒店食早餐", note: "準備出發" },
                     { time: "09:02", activity: "新宿乘搭富士回遊", note: "直達河口湖" },
-                    { time: "11:15", activity: "到河口湖", note: "食午餐" },
+                    { time: "11:15", activity: "到達河口湖站", note: "先食午餐" },
                     { time: "11:30", activity: "到河口湖，去Toyota取車", note: "欣賞富士山與花海" },
-                    { time: "18:00", activity: "入住溫泉飯店享用晚餐", note: "看著富士山享用懷石料理" }
+                    { time: "--:--", activity: "大石公園", note: "位於河口湖畔的公園，坐擁富士山美景、薰衣草花海及兒童遊樂場海" },
+                    { time: "17:00", activity: "山田屋飯店", note: "Check in" },
+                    { time: "18:00", activity: "溫泉酒店享用晚餐", note: "看著富士山享用懷石料理" }
                 ]
             },
             {
@@ -220,7 +222,7 @@
                     { time: "10:00", activity: "出發銀座花山烏冬", note: "JR，11:00前要到達" },
                     { time: "11:00", activity: "銀座花山烏冬", note: "寬麵條口感特殊，極受歡迎" },
                     { time: "14:00", activity: "銀座商場百貨購物", note: "銀座三越設有充足休息區" },
-                    { time: "18:30", activity: "晚餐：六歌仙燒肉", note: "晚餐" }
+                    { time: "18:30", activity: "六歌仙燒肉", note: "晚餐" }
                 ]
             },
             {
@@ -244,9 +246,9 @@
             { name: "木曽路 新宿三丁目店", region: "新宿", desc: "傳統涮涮鍋，服務貼心，有電梯直達。", link: "https://maps.app.goo.gl/E8YQhK2yX8V7X7aB9", icon: "🍲" },
             { name: "名代豬排 かつくら", region: "新宿", desc: "高島屋百貨內，無障礙動線流暢。", link: "https://maps.app.goo.gl/i4ZsQAb7TWixBG2W6", icon: "🐷" },
             { name: "燒肉亭 六歌仙", region: "新宿", desc: "和牛吃到飽，地點絕佳，適合最後慶功宴。", link: "https://maps.app.goo.gl/BNsoju1kmxLWpSdd6", icon: "🥩" },
-            { name: "名古屋備長鰻魚飯", region: "銀座/晴空塔", desc: "晴空塔內，不用日曬雨淋即可享用美食。", link: "https://maps.app.goo.gl/cYnnHVKXZCSP2eL76", icon: "🍱" },
-            { name: "五代目 花山烏冬", region: "銀座/晴空塔", desc: "群馬縣名產，店內裝潢高雅舒適。", link: "https://maps.app.goo.gl/UtGgNg3P5LZxr4gM7", icon: "🍜" },
-            { name: "山田屋飯店懷石", region: "富士河口湖", desc: "飯店一泊二食，邊看富士山邊用餐。", link: "https://maps.app.goo.gl/ud8U2Ncae6qdaWaP8", icon: "🍵" },
+            { name: "名古屋備長鰻魚飯", region: "晴空塔", desc: "晴空塔內，不用日曬雨淋即可享用美食。", link: "https://maps.app.goo.gl/cYnnHVKXZCSP2eL76", icon: "🍱" },
+            { name: "五代目 花山烏冬", region: "晴空塔", desc: "群馬縣名產，店內裝潢高雅舒適。", link: "https://maps.app.goo.gl/UtGgNg3P5LZxr4gM7", icon: "🍜" },
+            { name: "山田屋飯店懷石", region: "河口湖", desc: "飯店一泊二食，邊看富士山邊用餐。", link: "https://maps.app.goo.gl/ud8U2Ncae6qdaWaP8", icon: "🍵" },
             { name: "拉麵 風雲兒", region: "新宿", desc: "人氣拉麵店，供應搭配各式醬料的沾麵，並設有吧台座位", link: "https://maps.app.goo.gl/bJYW1D9zzdugCFL6A", icon: "🍥" },
             { name: "豚珍館", region: "新宿", desc: "日式炸豬扒餐廳", link: "https://maps.app.goo.gl/MJu5iQV6MJHPmHd66", icon: "🐖" }
         ];
